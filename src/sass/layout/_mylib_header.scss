@@ -1,0 +1,32 @@
+.header__nav_my_lib {
+    display: flex;
+}
+
+.header__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.header__watched_btn {
+    padding: 14px 16px;
+    margin-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .header__watched_btn {
+        padding: 14px 21px;
+    }
+}
+
+
+.header__queue_btn {
+    padding: 15px 38px;
+}
+
+@media screen and (min-width: 768px) {
+    .header__queue_btn {
+        padding: 15px 43px;
+    }
+}
+

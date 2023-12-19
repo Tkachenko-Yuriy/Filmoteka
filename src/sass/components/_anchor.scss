@@ -1,0 +1,42 @@
+.js-anchor {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    animation: scale 1s linear infinite;
+    top: 96%;
+    left: 90%;
+}
+
+@media screen and (min-width: 768px) {
+    .js-anchor {
+        width: 48px;
+        height: 48px;
+        top: 92%;
+        left: 92%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .js-anchor {
+        width: 48px;
+        height: 48px;
+        top: 92%;
+        left: 96%;
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0.8);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.8);
+    }
+}

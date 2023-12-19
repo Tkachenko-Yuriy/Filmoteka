@@ -1,0 +1,33 @@
+.button {
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.33;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: $inactive-btn-text-color;
+    background-color: inherit;
+    border: 1px solid $btn-border-color;
+    padding: 14px 37px;
+}
+
+.active_btn {
+    color: $active-btn-text-color;
+    background-color: $active-btn-bg-color;
+    border: none;
+}
+
+button[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.current_page {
+    border-bottom: 2px solid $header-current-color;
+}
+
+.current_btn {
+    background-color: $active-btn-bg-color;
+}
