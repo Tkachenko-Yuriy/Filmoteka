@@ -10,13 +10,13 @@
     color: $inactive-btn-text-color;
     background-color: inherit;
     border: 1px solid $btn-border-color;
-    padding: 14px 37px;
+    // padding: 14px 37px;
 }
 
 .active_btn {
     color: $active-btn-text-color;
     background-color: $active-btn-bg-color;
-    border: none;
+    border-color: inherit;
 }
 
 button[disabled] {
