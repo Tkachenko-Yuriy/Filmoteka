@@ -22,11 +22,17 @@ if (refs.myLib.classList.contains('current_page')) {
 function onWatchedBtnClick() {
   handlWatchedBtn();
   const loadStorage = storage.load(watchedKey);
+  if (!loadStorage) {
+  return
+}
   createMyLibGalleryMarkup(loadStorage);
 }
 function onQueueBtnClick() {
   handlQueueBtn();
   const loadStorage = storage.load(queueKey);
+  if (!loadStorage) {
+    return
+  }
   createMyLibGalleryMarkup(loadStorage);
 }
 
