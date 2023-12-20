@@ -16,7 +16,7 @@
 .active_btn {
     color: $active-btn-text-color;
     background-color: $active-btn-bg-color;
-    border-color: inherit;
+    border: 1px solid $active-btn-bg-color;
 }
 
 button[disabled] {
